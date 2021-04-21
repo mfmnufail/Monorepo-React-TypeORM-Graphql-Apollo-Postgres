@@ -4,6 +4,8 @@ This repo contains the packages of React with a typescript template and for serv
 HOW TO START
 ============
 npx void-workspace
+![image](https://user-images.githubusercontent.com/57898637/115562672-594e4400-a2d4-11eb-8a65-e6f9c3008c0d.png)
+
 
 OR
 ==
