@@ -3,6 +3,11 @@ This repo contains the packages of React with a typescript template and for serv
 
 HOW TO START
 ============
+npx void-workspace
+
+OR
+==
+clone the repo<br />
 yarn install<br />
 npm run start <br />
   => Automatically start Client React on http://localhost:3000/<br />
