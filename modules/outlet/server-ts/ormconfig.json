@@ -1,0 +1,27 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres",
+  "password": "3663",
+  "database": "outlet-pos",
+  "synchronize": true,
+  "logging": true,
+  "entities": [
+     "modules/outlet/server-ts/entity/**/*.ts"
+  ],
+  "migrations": [
+     "modules/outlet/server-ts/migration/**/*.ts"
+  ],
+  "subscribers": [
+     "modules/outlet/server-ts/subscriber/**/*.ts"
+  ],
+
+ 
+
+  "cli": {
+     "entitiesDir": "modules/outlet/server-ts/entity",
+     "migrationsDir": "modules/outlet/server-ts/migration",
+     "subscribersDir": "modules/outlet/server-ts/subscriber"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "root",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "modules/**/client-react",
+    "modules/**/server-ts"
+  ],
+  "version": "1.0.0",
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  },
+
+  "scripts": {
+    "test": "lerna run test",
+    "start" : "lerna run start",
+    "new-version" : "lerna version --conventional-commits --yes"
+    
+  }
+
+
+
+}

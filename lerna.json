@@ -1,0 +1,10 @@
+{
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "packages": [
+    "packages/*",
+    "modules/**/client-react",
+    "modules/**/server-ts"
+  ],
+  "version": "1.0.0"
+}
