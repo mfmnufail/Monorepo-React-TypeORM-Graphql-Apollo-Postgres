@@ -3,9 +3,9 @@ This repo contains the packages of React with a typescript template and for serv
 
 HOW TO START
 ============
-yarn install
-npm run start 
-  => Automatically start Client React on http://localhost:3000/
-  => Check the server on http://localhost:4000/graphql
+yarn install<br />
+npm run start <br />
+  => Automatically start Client React on http://localhost:3000/<br />
+  => Check the server on http://localhost:4000/graphql<br />
   
   happy hacking! ⚛
